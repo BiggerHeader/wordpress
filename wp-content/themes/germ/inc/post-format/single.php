@@ -49,7 +49,7 @@
     </footer>
     <div class="prev-next clearfix">
     <?php if (get_previous_post()) : ?>
-    <div class="prev">
+    <div class="prev" style="float: none;">
       <span class="prev_text"><?php previous_post_link('%link', '上一篇'); ?></span>
       <span class="prev_link"><?php previous_post_link('%link'); ?></span>
     </div>
