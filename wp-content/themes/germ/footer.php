@@ -4,7 +4,15 @@
         <?php echo dopt('d_notice_bottom'); ?>
     </a>
     <p>Powered by <a href="https://cn.wordpress.org" target="_blank" rel="nofollow">WordPress</a>, and
-        theme by <a href="https://hzy.pw/p/1933" target="_blank">Bigheader</a>.</p>
+        theme by <a href="https://hzy.pw/p/1933" target="_blank">Moshel.</a>
+        <a href="http://www.miitbeian.gov.cn/" rel="external nofollow" target="_blank">
+            <?php echo get_option('zh_cn_l10n_icp_num'); ?>
+        </a>
+        </span>
+        <span class="site-title">
+            <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?>
+            </a>
+        </span></p>
 </footer>
 </div>
 
