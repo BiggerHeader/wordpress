@@ -97,7 +97,7 @@
 
             <p class="input-row message-row"><textarea class="text_area" rows="3" cols="80" name="comment" id="comment"
                                                        tabindex="4" placeholder="欢迎在这里畅所欲言..."></textarea></p>
-            <script type='text/javascript' src='/wp-content/themes/germ/jsmiley.js'></script>
+            <script type='text/javascript' src='/wp-content/themes/germ/js/smiley.js'></script>
             <?php echo fa_get_wpsmiliestrans(); ?>
             <input type="submit" name="submit" class="button" id="submit" tabindex="5" value="提交评论"/>
 
