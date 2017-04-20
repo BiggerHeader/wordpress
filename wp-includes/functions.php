@@ -5894,9 +5894,10 @@ function fa_get_wpsmiliestrans(){
     return $output;
 }
 //给评论添加表情支持
-add_filter( 'comment_form_defaults','fa_add_smilies_to_comment_form');
+/*add_filter( 'comment_form_defaults','fa_add_smilies_to_comment_form');
 function fa_add_smilies_to_comment_form($default) {
     $commenter = wp_get_current_commenter();
     $default['comment_field'] .= '<p class="comment-form-smilies">' . fa_get_wpsmiliestrans() . '</p>';
+    var_dump($default);exit();
     return $default;
-}
+}*/

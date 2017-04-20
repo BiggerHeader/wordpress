@@ -99,10 +99,18 @@
                                                        tabindex="4" placeholder="欢迎在这里畅所欲言..."></textarea></p>
             <script type='text/javascript' src='/wp-content/themes/germ/js/smiley.js'></script>
             <?php echo fa_get_wpsmiliestrans(); ?>
+            <style>
+                .wp-smiley{
+                    width:16px;height:16px;vertical-align:middle
+                }
+                .add-smily{
+                    background:#fff;border:0;cursor:pointer
+                }
+                .add-smily .wp-smiley{
+                    width:24px;height:24px;margin-right:5px
+                }
+            </style>
             <input type="submit" name="submit" class="button" id="submit" tabindex="5" value="提交评论"/>
-
         </form>
     </div>
-
-
 </div>
