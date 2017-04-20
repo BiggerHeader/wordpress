@@ -20,10 +20,17 @@
 ?>
 
     <div id="wrap">
-      <div id="preheader"></div>
+      <div id="preheader">
+      </div>
       <header id="header" class="clearfix">
   		<div class="head">
-  			<h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name')?></a></h1>
+  			<h1>
+                <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name')?></a>
+            </h1>
+            <div class="top-time">
+                <?php echo date('Y年m月d日'); ?>
+                <?php $weekarray=array("日","一","二","三","四","五","六"); echo "星期".$weekarray[date("w")]; ?>
+            </div>
   			<p class="desc yahei">
                 <span class="<?php echo dopt('d_saying_title')?'saying-title':''?>">
                     <?php bloginfo('description')?>
