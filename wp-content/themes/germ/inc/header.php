@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="baidu-site-verification" content="SwheK3wg3n" />
+    <meta name="baidu-site-verification" content="1MTQNDtQjn" />
     <?php wp_head(); ?>
     <?php if( dopt('d_headcode_b') != '' ) echo dopt('d_headcode'); ?>
 </head>
