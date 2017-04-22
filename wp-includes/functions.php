@@ -5901,3 +5901,7 @@ function fa_add_smilies_to_comment_form($default) {
     var_dump($default);exit();
     return $default;
 }*/
+//优化
+remove_action( 'wp_head', 'wp_generator' ) ;
+remove_action( 'wp_head', 'wlwmanifest_link' ) ;
+remove_action( 'wp_head', 'rsd_link' ) ;

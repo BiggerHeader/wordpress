@@ -17,7 +17,8 @@
  *
  * @package WordPress
  */
-
+//关闭WordPress的版本修订功能
+define( 'WP_POST_REVISIONS', false);
 // ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //
 /** WordPress数据库的名称 */
 define('DB_NAME', 'wordpress');
