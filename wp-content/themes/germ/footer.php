@@ -16,9 +16,32 @@
     <p><span id="runtime" style="color: #523f6d"></span></p>
 </footer>
 </div>
+<a class="ttip-none rss-icon" title="Rss" href="<?php echo esc_url(home_url('/feed')); ?>" target="_blank">
+    <i class="fa fa-rss"></i></a>
+<style>
+    a.rss-icon {
+        color: #fff;
+        background: #e74c3c none repeat scroll 0 0;
+        display: block;
+        width: 45px;
+        height: 45px;
+        right: 30px;
+        text-align: center;
+        font-size: 2rem;
+        color: #47C2DC;
+        border-bottom: none;
+        z-index: 11;
+        border-radius: 5px;
+        position: fixed;
+        bottom: 220px;
+    }
+    .fa-rss::before {
+        content: "";
+    }
+</style>
 <img id="qrimg" src=""/>
-<a id="qr" href="javascript:;"><i class="fa fa-qrcode"></i></a>
-<a id="gotop" title="点击返回页顶" href="javascript:;"><i class="fa fa-arrow-up"></i></a>
+<a id="qr" href="javascript:;"  style="background: #e74c3c none repeat scroll 0 0;"><i class="fa fa-qrcode"></i></a>
+<a id="gotop" title="点击返回页顶" href="javascript:;" style="background: #e74c3c none repeat scroll 0 0;"><i class="fa fa-arrow-up"></i></a>
 
 <?php
 if (dopt('d_track_b') != '')
