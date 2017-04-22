@@ -1,5 +1,5 @@
 </div>
-<footer id="footer" class="yahei clearfix" style="text-align: center">
+<footer id="footer" class="yahei clearfix" style="text-align: center;color: #6c645c">
     <a class=" <?php echo dopt('d_saying_bottom') ? 'saying-bottom' : ''; ?>">
         <?php echo dopt('d_notice_bottom'); ?>
     </a>
@@ -11,6 +11,9 @@
         <span class="site-title">
             <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?>
             </a>
+        </span>
+        <span>
+            <a href="<?php echo esc_url(home_url('/sitemap.xml')); ?>" target="_blank">网站地图</a>
         </span>
     </p>
     <p><span id="runtime" style="color: #523f6d"></span></p>
