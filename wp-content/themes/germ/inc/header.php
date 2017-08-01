@@ -31,11 +31,11 @@
                 <?php echo date('Y年m月d日'); ?>
                 <?php $weekarray=array("日","一","二","三","四","五","六"); echo "星期".$weekarray[date("w")]; ?>
             </div>
-  			<p class="desc yahei">
-                <span class="<?php echo dopt('d_saying_title')?'saying-title':''?>">
-                    <?php bloginfo('description')?>
+  		<!--	<p class="desc yahei">
+                <span class="<?php /*echo dopt('d_saying_title')?'saying-title':''*/?>">
+                    <?php /*bloginfo('description')*/?>
                 </span>
-            </p>
+            </p>-->
   		</div>
 
             <?php
