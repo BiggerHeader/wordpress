@@ -1,8 +1,8 @@
 </div>
 <footer id="footer" class="yahei clearfix" style="text-align: center;color: #6c645c">
-    <a class=" <?php echo dopt('d_saying_bottom') ? 'saying-bottom' : ''; ?>">
-        <?php echo dopt('d_notice_bottom'); ?>
-    </a>
+   <!-- <a class=" <?php /*echo dopt('d_saying_bottom') ? 'saying-bottom' : ''; */?>">
+        <?php /*echo dopt('d_notice_bottom'); */?>
+    </a>-->
     <p>Powered by <a href="https://cn.wordpress.org" target="_blank" rel="nofollow">WordPress</a>, and
         theme by <a href="https://hzy.pw/p/1933" target="_blank">Moshel.</a>
         <a href="http://www.miitbeian.gov.cn/" rel="external nofollow" target="_blank">
